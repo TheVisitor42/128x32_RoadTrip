@@ -2,7 +2,7 @@
 A fun microcontroller generated video of a car driving on a roadtrip, made for a 128x32 OLED display. It travels through different biomes and has some cut scenes that give it more life.
 Its mostly an orthographic view with some 2D animations. The total runtime is about as long as a regular TV anime.
 
-I'm running this with a Raspberry Pi Pico and an I2C connection to the Adafruit 128x32 2.23" OLED Bonnet. Though with some small changes to the code it should work with any 128x32 OLED display.
+I'm running this with a Raspberry Pi Pico and an I2C connection to the Adafruit 128x32 2.23" OLED Bonnet. Though with some small changes to the code it should work with any 128x32 OLED display. I'm running it on CIRCUITPY since the Adafruit libraries were already configured to work with the hardware.
 
 The trip was inspired by the lofi music channels on youtube with minimal movements of the main subject and their environment being the thing that changes. In this example parallax is used to give the feeling of the car moving through the country. Occasionally another vehicle will come along and pass the car or get passed by it.  
 
